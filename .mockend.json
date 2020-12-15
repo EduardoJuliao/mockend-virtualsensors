@@ -16,8 +16,7 @@
     "isMain": "boolean",
     "isBuildingBlockOfMain": "boolean",
     "sensorCustomerName": "string",
-    "sensorAddress": "string",
-    
+    "sensorAddress": "string"
   },
   "VirtualSensorOperator":{
     "id":"int",
