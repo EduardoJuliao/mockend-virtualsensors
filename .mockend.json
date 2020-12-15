@@ -1,13 +1,31 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "Sensor":{
+    "id":"int",
+    "name": "string",
+    "sensorIntervalId": "int",
+    "sensorUnitId": "int",
+    "nodeId": "int",
+    "systemNode": "string",
+    "format": "string",
+    "includedInPortal": "boolean",
+    "lowerThreshold": "int",
+    "upperTreshold": "int",
+    "realTimeLogging": "boolean",
+    "realTimeLoggingIntervalId": "int",
+    "embeddedControllerTagId": "int",
+    "isMain": "boolean",
+    "isBuildingBlockOfMain": "boolean",
+    "sensorCustomerName": "string",
+    "sensorAddress": "string",
+    
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "VirtualSensorOperator":{
+    "id":"int",
+    "operator":"string",
+    "descrip[tion": "sting"
+  },
+  "VirtualSensorSampleQuality":{
+    "id":"int",
+    "name":"string"
   }
 }
