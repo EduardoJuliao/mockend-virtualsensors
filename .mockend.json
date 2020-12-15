@@ -1,6 +1,22 @@
 {
-  "Sensor":{
-    "id":"int",
+  "Root": {
+    "rootId": "int",
+    "name": "string",
+    "systemName": "string",
+    "countryId": "int",
+    "rootCustomerName": "string"
+  },
+  "Site":{
+    "siteId": "int",
+    "name": "string",
+    "rootId": "int",
+    "systemName":"string",
+    "siteCustomerName":"string",
+    "timeZoneRuleId": "int",
+    "countryId":"int"
+  },
+  "Sensor": {
+    "id": "int",
     "name": "string",
     "sensorIntervalId": "int",
     "sensorUnitId": "int",
@@ -18,13 +34,30 @@
     "sensorCustomerName": "string",
     "sensorAddress": "string"
   },
-  "VirtualSensorOperator":{
+  "VirtualSensor":{
     "id":"int",
-    "operator":"string",
+    "name":"string",
+    "rootId":"int",
+    "siteId": "int",
+    "sensorUnitId": "int",
+    "inPortal": "boolean",
+    "isMain":"boolean",
+    "isBuildingBlockOfMain":"boolean",
+    "math": "string",
+    "mathML":"string",
+    "maxValue": "decimal",
+    "minValue": "decimal",
+    "realtimeDataSource": "boolean",
+    "archivedBy":"int",
+    "createdBy":"int"
+  },
+  "VirtualSensorOperator": {
+    "id": "int",
+    "operator": "string",
     "descrip[tion": "sting"
   },
-  "VirtualSensorSampleQuality":{
-    "id":"int",
-    "name":"string"
+  "VirtualSensorSampleQuality": {
+    "id": "int",
+    "name": "string"
   }
 }
