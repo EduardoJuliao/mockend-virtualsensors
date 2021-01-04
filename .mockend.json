@@ -1,5 +1,4 @@
 {
-  "api":{
     "Root": {
     "rootId": "int",
     "name": "string",
@@ -60,6 +59,5 @@
   "VirtualSensorSampleQuality": {
     "id": "int",
     "name": "string"
-  }
   }
 }
